@@ -1,0 +1,17 @@
+# Conda environment for DASTRP-Net
+#   conda env create -f environment.yml
+#   conda activate dastrp
+# For a CPU-only machine replace "pytorch-cuda=12.4" with "cpuonly".
+name: dastrp
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch>=2.1
+  - torchvision>=0.16
+  - pytorch-cuda=12.4
+  - pip
+  - pip:
+      - -r requirements.txt

@@ -1,0 +1,35 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+
+# Data (download IMBD-ESR separately, see data/README.md)
+data/imbd-esr/
+data/processed/
+data/clips/
+
+# Experiment outputs and checkpoints (published via GitHub Releases)
+runs/
+weights/*
+!weights/README.md
+!weights/manifest.json
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Media
+*.mp4
+*.avi
+*.mov
+
+# Local configs that may hold machine paths
+Makefile.local
+*.local.json

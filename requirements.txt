@@ -1,0 +1,11 @@
+# Install PyTorch first, matching your CUDA version:
+#   https://pytorch.org/get-started/locally/
+torch>=2.1
+torchvision>=0.16
+ultralytics>=8.3.0      # YOLO11
+opencv-python>=4.8
+numpy>=1.24
+tqdm>=4.65
+tensorboard>=2.14
+matplotlib>=3.7
+pandas>=2.0
